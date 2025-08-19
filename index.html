@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whooo Are You?</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="app-title">Whooo Are You?</h1>
+        
+        <div class="nes-container with-title is-centered">
+            <p class="title">The Owl Asks...</p>
+            <p id="question-text">What is your earliest childhood memory?</p>
+        </div>
+
+        <textarea id="story-input" class="nes-textarea" placeholder="Your story here..."></textarea>
+        
+        <div class="buttons-container">
+            <button id="save-button" type="button" class="nes-btn is-primary">Save & Next</button>
+            <button id="skip-button" type="button" class="nes-btn">Skip</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
